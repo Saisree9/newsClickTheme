@@ -1,0 +1,35 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region div.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="region region-footer">
+<div class="subscribe">Subscribe</div>
+<div class="email">
+<form action="demo_form.asp">
+  <input type="text" placeholder="your email here">
+  <input type="submit" value=">">
+</form>
+</div>
+<div class="connect">connect with us
+<img src="../themes/Drupal8theme/images/facebook.png">
+<img src="../themes/Drupal8theme/images/twitter.jpeg"/>
+<!-- <img src="../themes/Drupal8theme/images/linkedin.png"> -->
+<img src="../themes/Drupal8theme/images/mail.png">
+<!-- <img src="../themes/Drupal8theme/images/google-plus.jpeg"> -->
+
+</div>
+<div class="about">about us</div>
+<div class="disc">disclaimer</div>
+</div>

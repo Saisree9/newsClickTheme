@@ -1,0 +1,18 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Drupal8theme'
+description: 'Uses the jsDelivr CDN for all CSS and JavaScript. No source files or compiling is necessary and is recommended for simple sites or beginners.'
+package: 'Bootstrap'
+
+regions:
+  navigation: 'Navigation'
+  sidebar_second: 'SideBar2'
+  more_stories: 'More stories'
+  related_news: 'Related News'
+  footer: 'Subscribe Bar'
+  
+
+libraries:
+  - 'Drupal8theme/global-styling'
